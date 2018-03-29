@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.admin.linkageviewdemo.view.ChartGroup
+        android:background="#ffffff"
+        android:id="@+id/chartgroup"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.admin.linkageviewdemo.view.ChartGroup>
+
+    <TextView
+        android:id="@+id/tv_anima"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:background="#cc6677"
+        android:text="带动画绘制"
+        android:visibility="visible"
+        android:layout_below="@id/chartgroup"/>
+
+
+</RelativeLayout>
